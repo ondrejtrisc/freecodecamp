@@ -11,6 +11,20 @@ body {
   width: 98.9vw;
 }
 
+nav {
+  background-color: brown;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+}
+
 #welcome-section {
   width: 100%;
   height: 100vh;
@@ -34,8 +48,7 @@ h2 {
 
 #projects {
   width: 100%;
-  height: 100vh;
-  padding: 3rem;
+  min-height: 100vh;
 }
 
 #projects-container {
@@ -45,7 +58,7 @@ h2 {
   justify-content: space-between;
 }
 
-.project {
+.project-tile {
   color: white;
   background-color: rgb(50, 50, 94);
   width: 28vw;
@@ -57,15 +70,24 @@ h2 {
 }
 
 @media (max-width: 1000px) {
-  .project {
-    width: 38vw;
-    height: 38vw;
+  .project-tile {
+    width: 42vw;
+    height: 42vw;
   }
 }
 
 @media (max-width: 700px) {
-  .project {
+  .project-tile {
     width: 90vw;
     height: 90vw;
   }
+}
+
+#contact {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

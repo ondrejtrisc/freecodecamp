@@ -1,0 +1,29 @@
+* {
+ box-sizing: border-box;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  width: 408px;
+  border: 1px solid black;
+}
+
+#display {
+  width: 304px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+}

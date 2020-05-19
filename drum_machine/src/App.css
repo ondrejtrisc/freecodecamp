@@ -1,0 +1,15 @@
+#pad-container {
+  width: 306px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.drum-pad {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
